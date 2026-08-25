@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f1117;
+    color: white;
+}
+
+header {
+    background: #181b25;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.game-card {
+    background: #1c202b;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
