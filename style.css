@@ -28,3 +28,34 @@ main {
     padding: 20px;
     margin-top: 20px;
 }
+.game-image {
+    height: 150px;
+    background: #292d3a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.game-card h3 {
+    margin-bottom: 5px;
+}
+
+.game-card p {
+    color: #aaa;
+}
+
+.game-card button {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.game-card button:hover {
+    background: #5848c2;
+}
