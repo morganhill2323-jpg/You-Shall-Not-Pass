@@ -21,7 +21,11 @@ main {
     margin: auto;
     padding: 30px 20px;
 }
-
+.games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 .game-card {
     background: #1c202b;
     border-radius: 12px;
