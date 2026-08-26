@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Game - You Shall Not Pass Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>You Shall Not Pass Games</h1>
+    </header>
+
+    <main>
+
+        <h2>My First Game</h2>
+
+        <div class="game-area">
+            🎮
+            <p>Game coming soon!</p>
+        </div>
+
+        <a href="index.html">← Back to Games</a>
+
+    </main>
+
+</body>
+
+</html>
