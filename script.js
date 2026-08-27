@@ -2,5 +2,5 @@ let score = 0;
 
 function addPoint() {
     score = score + 1;
-    console.log(score);
+    document.getElementById("score").textContent = score;
 }
