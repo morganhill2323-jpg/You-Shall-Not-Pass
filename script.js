@@ -15,9 +15,12 @@ let timer = setInterval(function() {
         document.getElementById("timer").textContent = timeLeft;
     }
 
-    if (timeLeft === 0 && gameOver === false) {
-        gameOver = true;
-        clearInterval(timer);
-        alert("Game Over! Your score was " + score);
+if (timeLeft === 0 && gameOver === false) {
+    gameOver = true;
+    clearInterval(timer);
+
+    document.getElementById("final-score").textContent = score;
+    document.getElementById("game-over").style.display = "block";
+}
     }
 }, 1000);
