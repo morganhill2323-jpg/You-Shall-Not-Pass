@@ -63,3 +63,6 @@ main {
 .game-card button:hover {
     background: #5848c2;
 }
+#game-over {
+    display: none;
+}
